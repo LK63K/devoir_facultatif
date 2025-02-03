@@ -1,1 +1,16 @@
-
+| propriétés     | commentaires                | type    | entité    | identifiant |
+|----------------|-----------------------------|---------|-----------|-------------|
+| id_personne    | primary key,auto increment  | INT     | personnes | x           |
+| prenom         |                             | varchar | personnes |             |
+| date_naissance |                             | date    | personnes |             |
+| date_déces     |                             | date    | personnes |             |
+| parent1        | FK                          | int     | personnes |             |
+| parent2        | FK                          | int     | personnes |             |
+| nom            |                             | varchar | personnes |             |
+|                |                             |         |           |             |
+|                |                             |         |           |             |
+|                |                             |         |           |             |
+|                |                             |         |           |             |
+|                |                             |         |           |             |
+|                |                             |         |           |             |
+|                |                             |         |           |             |
