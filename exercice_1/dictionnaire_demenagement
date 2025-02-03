@@ -1,1 +1,23 @@
-
+| propriétes       | commentaire                | type     | entité       | identifiant |
+|------------------|----------------------------|----------|--------------|-------------|
+| immatriculation  | primary key  UNIQUE        | VARCHAR  | camions      | x           |
+| volume           |                            | FLOAT    | camions      |             |
+| date_achat       |                            | DATE     | camions      |             |
+| nom              |                            | VARCHAR  | clients      |             |
+| prenom           |                            | VARCHAR  | clients      |             |
+| email            |                            | VARCHAR  | clients      |             |
+| telephone        |                            | INT      | clients      |             |
+| id               | primary key auto_increment | INT      | clients      | x           |
+| adresse          |                            | VARCHAR  | localisation |             |
+| etage            |                            | int      | localisation |             |
+| numero_appart    |                            | int      | localisation |             |
+| id               | primary key auto_increment | int      | cartons      |             |
+| poids            |                            | float    | cartons      |             |
+| volume           |                            | int      | cartons      |             |
+| fragile          |                            | boolean  | cartons      |             |
+| id               | primary key auto_increment | int      | deplacer     | x           |
+| date_deplacement |                            | date     | deplacer     |             |
+| fait             |                            | boolean  | deplacer     |             |
+| endroit_depart   | foreign key                | VARCHAR  | deplacer     |             |
+| endroit_arrive   | foreign key                | VARCHAR  | deplacer     |             |
+|                  |                            |          |              |             |
