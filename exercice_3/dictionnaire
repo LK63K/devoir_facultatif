@@ -11,7 +11,7 @@
 | prenom             |                            | varchar  | proptiétaire |             |
 | date               |                            | datetime | visite       |             |
 | heure              |                            | datetime | visite       |             |
-| mail               |                            | varchar  | client       |             |
+| mail               | primary key                | varchar  | client       | x           |
 | nom                |                            | varchar  | client       |             |
 | prenom             |                            | varchar  | client       |             |
 |                    |                            |          |              |             |
