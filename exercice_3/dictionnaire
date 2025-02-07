@@ -1,1 +1,17 @@
 
+| propriétés         | commentaires               | type     | entité       | identifiant |
+|--------------------|----------------------------|----------|--------------|-------------|
+| id_bien            | primary key auto increment | INT      | biens        | x           |
+| adresse            |                            | varchar  | biens        |             |
+| code_postale       |                            | varchar  | biens        |             |
+| numero_etage       |                            | INT      | biens        |             |
+| numero_appartement |                            | INT      | biens        |             |
+| mail               | primary key                | varchar  | proptiétaire | x           |
+| nom                |                            | varchar  | proptiétaire |             |
+| prenom             |                            | varchar  | proptiétaire |             |
+| date               |                            | datetime | visite       |             |
+| heure              |                            | datetime | visite       |             |
+| mail               |                            | varchar  | client       |             |
+| nom                |                            | varchar  | client       |             |
+| prenom             |                            | varchar  | client       |             |
+|                    |                            |          |              |             |
